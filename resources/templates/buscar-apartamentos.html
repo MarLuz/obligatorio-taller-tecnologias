@@ -1,0 +1,39 @@
+<!--Start Panel Menu-->	
+<div data-role="panel" id="menu-buscar-apartamentos" data-theme="a" data-display="overlay">
+	<div class="ui-panel-inner">
+		<ul data-role="listview" style="margin-top:-16px;" class="nav-search ui-listview">
+			<li><a href="#inicio">Inicio</a></li>
+			<li><a href="#buscar-casas">Buscar Casas</a></li>
+			<li><a href="#buscar-apartamentos">Buscar Apartamentos</a></li>
+		</ul>
+	</div>
+</div>
+<!--End Panel Menu-->
+	
+<div role="main" class="ui-content">
+	<h1>Buscar Apartamentos</h1>
+	<p class="titulo">Algunos apartamentos que te pueden interesar:</p>
+	<br>
+	<form>
+		<div class="ui-field-contain">
+			<select name="select-native-1" id="selectOrderApartments">
+				<option value="0" selected>Ordenar por</option>
+				<option value="ASC">Menor precio</option>
+				<option value="DESC">Mayor precio</option>
+			</select>
+		</div>
+	</form>
+	<div class="wrapperItems">
+		<ul class="seleccion" id="resultsApartments"></ul>
+	</div>
+</div>
+
+<div data-role="footer" data-position="fixed" data-theme="b">
+	<div  data-role="navbar">
+		<ul>
+			<li><a href="" data-icon="star">Favs</a></li>
+			<li><a href="#inicio" data-icon="grid">Home</a></li>
+			<li><a href="#filtrosCasas" data-icon="gear">Filters</a></li>
+		</ul>
+	</div>
+</div>

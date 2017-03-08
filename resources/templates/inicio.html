@@ -1,0 +1,49 @@
+<!--Start Panel Menu-->	
+<div data-role="panel" id="menu-inicio" data-theme="a" data-display="overlay">
+	<div class="ui-panel-inner">
+		<ul data-role="listview" style="margin-top:-16px;" class="nav-search ui-listview">
+			<li><a href="#inicio">Inicio</a></li>
+			<li><a href="#buscar-casas">Buscar Casas</a></li>
+			<li><a href="#buscar-apartamentos">Buscar Apartamentos</a></li>
+		</ul>
+	</div>
+</div>
+<!--End Panel Menu-->
+
+<div role="main" class="ui-content">
+
+	<ul class="bxslider" id="sliderHome">
+	  <li><img src="./resources/img/slider/pic1.jpeg" title="Lorem ipsum 1"/></li>
+	  <li><img src="./resources/img/slider/pic2.jpeg" title="Lorem ipsum 2"/></li>
+	  <li><img src="./resources/img/slider/pic3.jpeg" title="Lorem ipsum 3"/></li>
+	  <li><img src="./resources/img/slider/pic4.jpg"  title="Lorem ipsum 4"/></li>
+	</ul>
+	<h1>Bienvenidos a <span>BuscaCasa.com</span></h1>
+	<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</p>
+	<form>
+		<div class="ui-field-contain">
+			<select name="select-native-1" id="quickMenu">
+				<option value="0" selected>Accesos rápidos</option>
+				<option value="#buscar-casas">Buscar casas</option>
+				<option value="#buscar-apartamentos">Buscar apartamentos</option>
+			</select>
+		</div>
+	</form>
+	
+	<h4>
+		<a data-role="button" data-icon="star" data-iconpos="notext" data-theme="a" data-inline="true" class="ui-link ui-btn ui-btn-a ui-icon-star ui-btn-icon-notext ui-btn-inline ui-shadow ui-corner-all" role="button"></a>
+		Ultimas propiedades agregadas: 
+	</h4>
+	<ul class="bxslider" id="lasts"></ul>
+</div>
+
+<!--Footer Home-->
+<div data-role="footer" data-position="fixed" data-theme="b">
+	<div  data-role="navbar">
+		<ul>
+			<li><a href="" data-icon="star">Favs</a></li>
+			<li><a href="#inicio" data-icon="grid">Inicio</a></li>
+			<li><a href="" data-icon="gear">Setup</a></li>
+		</ul>
+	</div>
+</div>

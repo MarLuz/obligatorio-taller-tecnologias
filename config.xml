@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<widget xmlns = "http://www.w3.org/ns/widgets"
+	xmlns:gap = "http://phonegap.com/ns/1.0"
+	id        = "com.mluz.taller"
+	versionCode="1" 
+	version   = "1.1.2">
+
+	<name>BuscaCasa.com</name>
+	
+	<description>
+		En BuscaCasa.com encontraras las mejores ofertas de alquiler y venta de casas, apartamentos, etc.
+	</description>
+	
+	<author href="https://build.phonegap.com" email="support@phonegap.com">
+		Martin Luz
+	</author>
+	
+	<!-- PREFERENCIAS DE PLATAFORMA -->
+	<access origin="*" />
+	<gap:platform name="ios" />
+	<gap:platform name="android" />
+	
+	<preference name="phonegap-version" value="3.4.0" />
+	<preference name="orientation" value="portrait" />
+	<preference name="fullscreen" value="true" />
+	<preference name="android-installLocation" value="auto" /> 
+	<preference name="splashscreen" value="splash" />
+	<preference name="android-minSdkVersion" value="12" />
+	<preference name="SplashScreenDelay" value="5000" />
+	
+	<!--Icons-->		
+	<icon src="icon.png" />
+    <splash src="splash.png" />
+
+	<!--Android Icons-->	
+	<icon src="resources/img/icons/icon-56.png"  platform="android" density="ldpi" />
+	<icon src="resources/img/icons/icon-72.png"  platform="android" density="ldpi" />
+	
+	<!--Android Splash-->	
+	<splash src="resources/img/splash/ldpi.png"  platform="android" density="ldpi" />
+	<splash src="resources/img/splash/mdpi.png"  platform="android" density="mdpi" />
+	<splash src="resources/img/splash/hdpi.png"  platform="android" density="hdpi" />
+	<splash src="resources/img/splash/xhdpi.png" platform="android" density="xhdpi" />	
+
+	<!-- Plugins -->
+	<gap:plugin name="org.apache.cordova.device" />
+	<gap:plugin name="org.apache.cordova.battery-status" />
+	<gap:plugin name="org.apache.cordova.splashscreen" />
+	<gap:plugin name="org.apache.cordova.network-information" />
+    <gap:plugin name="org.apache.cordova.geolocation" />
+    <gap:plugin name="org.apache.cordova.inappbrowser" />
+    <gap:plugin name="org.apache.cordova.dialogs" />
+    <gap:plugin name="org.apache.cordova.splashscreen" />
+	<gap:plugin name="com.phonegap.plugins.pushplugin" />
+	<gap:plugin name="com.phonegap.plugins.childbrowser" />
+    <plugin name="cordova-plugin-geolocation" />
+    
+    <platform name="android">
+    	<splash src="splash.png"/>
+    	<icon src="icon.png" width="144" height="144" />
+	</platform>
+    
+    <access origin="*" subdomains="true"/>
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    
+</widget>

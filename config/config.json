@@ -1,0 +1,7 @@
+{
+    "name"        : "BuscaCasa.com",
+    "description" : "En BuscaCasa.com encontraras las mejores ofertas de alquiler y venta de casas, apartamentos, etc."
+    "author"      : "Martín Luz",
+    "version"     : "1.0"
+    "debug"       : true
+}
