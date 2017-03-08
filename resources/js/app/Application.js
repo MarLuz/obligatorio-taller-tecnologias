@@ -9,7 +9,7 @@ var app;
 ; (function(w) {
    'use strict';
    
-   /* global $ DataBaseManager localStorage API GoogleMap Connection, navigator*/
+   /* global $ DataBaseManager localStorage API GoogleMap Connection, navigator FindApartment*/
    
    Application.Utils;
    Application.Debug = false;
